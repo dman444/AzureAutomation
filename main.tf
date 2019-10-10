@@ -4,5 +4,6 @@ resource "azurerm_resource_group" "rg_terraform_auto" {
 
     tags = {
         environment = "Lab"
+        costcenter  = "101"
     }
 }
