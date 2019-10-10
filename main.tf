@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg_terraform_auto" {
-    name        = "rg_from_github_module"
+    name        = "${var.name}"
     location    = "East US 2"
 
     tags = {
